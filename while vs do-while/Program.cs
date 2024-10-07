@@ -1,5 +1,5 @@
 ﻿Console.Write("Bir limit değeri giriniz: ");
-int limit = int.Parse(Console.ReadLine());
+int limit = Convert.ToInt32(Console.ReadLine());
 
 int sayac = 0;
 
@@ -16,7 +16,7 @@ if (limit < 0)
 
 
 Console.Write("Bir limit değeri giriniz: ");
-int limit2 = int.Parse(Console.ReadLine());
+int limit2 = Convert.ToInt32(Console.ReadLine());
 
 int sayac2 = 0;
 
